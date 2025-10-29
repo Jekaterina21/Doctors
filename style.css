@@ -1,22 +1,57 @@
-body{
-    box-sizing: border-box;
+body {
+  box-sizing: border-box;
 }
-.sections { 
-     display: flex; 
-     flex-direction: row; 
-    column-count: 4; 
-    justify-content: center;
-
+.sections {
+  display: flex;
+  flex-direction: row;
+  column-count: 3;
+  justify-content: space-around;
 }
 
-.icon, img {
-    width: 30px;
+.icon,
+img {
+  width: 50px;
 }
-.head{
-    color: #6a50ff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    padding-left:100px;
-    padding-right: 70px;
-
+.head {
+  color: #6a50ff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  padding-left: 100px;
+  padding-right: 70px;
+}
+.banner {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.ban-icons, .select {
+  display: flex;
+  flex-direction: row;
+  column-count: 6;
+  column-gap: 2px;
+  padding: 7px;
+}
+.star {
+  width: 40px;
+}
+.female,
+.heart,
+.male,
+.a-z {
+  width: 35px;
+}
+.ban-para {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  color: #6a50ff;
+  cursor: pointer;
+}
+.select:hover{
+    background-color: #6a50ff;
+    border-radius: 9999px;
+}
+.arrow{
+    width: 70px;
 }
