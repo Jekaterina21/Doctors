@@ -54,4 +54,63 @@ img {
 }
 .arrow{
     width: 70px;
+} 
+.select:hover{
+    background-color: #6a50ff;
+    border-radius: 9999px;
 }
+.arrow{
+    width: 70px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.top-buttons{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 20px;
+}
+button{
+    background-color: #8a77fa;
+    color: #FFFFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    width: 400px;
+    height: 60px;
+    border-radius: 9999px;
+    border: white solid 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #6a50ff;
+}
+.down-buttons{
+    display: flex;
+    justify-content: center;
+}
+.derm-endo{
+    background-color:#6a50ff;
+    padding: 20px;
+    border-radius: 9999px;
+    width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
+}
+.derm-endo::after{
+    content: url(images/9427053\ \(1\).png);
+    display: inline-block;
+    width: 50px;
+    transition: all 1s ease;
+    margin-left: 540px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 9999px;
+
+}
+.derm-endo:hover::before{
+      transform:rotate(90deg)
+}
+.derm-endo:hover::after{
+    transform:rotate(90deg)
+ 
