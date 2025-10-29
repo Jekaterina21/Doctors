@@ -113,18 +113,19 @@ button:hover{
 .derm-endo:hover::after{
     transform:rotate(90deg)
 }
-.about-endo{
+.about-endo {
   display: block;
   justify-content: center;
   background-color: #bfb4ff;
   position: relative;
-  margin-left: 500px;
-  margin-right: 500px;
+  margin: 40px auto; 
+  max-width: 800px; 
+  width: 90%; 
   padding: 20px;
   border-radius: 70px;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  border:white solid 5px;
+  border: 5px solid #ffffff
 }
 .about-endo h1{
   color: #4426f1;
@@ -133,7 +134,8 @@ button:hover{
   position: relative;
   background-color: #6a5eff;
   border-radius: 50px;
-  width: 1000px;
+  max-width: 1000px;
+  width: 90%;
   margin: 20px auto;
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -150,6 +152,8 @@ button:hover{
     margin-left: 525px;
     background-color: #FFFFFF;
     border-radius: 9999px;
+    max-width: 50px;
+    width: 90%;
 
 }
 .cosm-bio:hover::before{
@@ -157,4 +161,14 @@ button:hover{
 }
 .cosm-bio:hover::after{
     transform:rotate(90deg)
+}
+.footer{
+  display: block;
+  background-color: #4426f1;
+column-count: 4;
+padding: 20px;
+border-radius: 9999px;
+padding-left: 350px;
+max-width: 100%;
+width: 90%;
 }
