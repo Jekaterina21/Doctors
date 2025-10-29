@@ -103,7 +103,6 @@ button:hover{
     width: 50px;
     transition: all 1s ease;
     margin-left: 540px;
-    padding: 5px;
     background-color: #FFFFFF;
     border-radius: 9999px;
 
@@ -121,7 +120,7 @@ button:hover{
   position: relative;
   margin-left: 500px;
   margin-right: 500px;
-  padding: 50px;
+  padding: 20px;
   border-radius: 70px;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -129,4 +128,33 @@ button:hover{
 }
 .about-endo h1{
   color: #4426f1;
+}
+.cosm-bio {
+  position: relative;
+  background-color: #6a5eff;
+  border-radius: 50px;
+  width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #fff;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.cosm-bio:after{
+    content: url(images/9427053\ \(1\).png);
+    display: inline-block;
+    transition: all 1s ease;
+    margin-left: 525px;
+    background-color: #FFFFFF;
+    border-radius: 9999px;
+
+}
+.cosm-bio:hover::before{
+      transform:rotate(90deg)
+}
+.cosm-bio:hover::after{
+    transform:rotate(90deg)
 }
