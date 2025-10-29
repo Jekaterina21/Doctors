@@ -113,4 +113,20 @@ button:hover{
 }
 .derm-endo:hover::after{
     transform:rotate(90deg)
- 
+}
+.about-endo{
+  display: block;
+  justify-content: center;
+  background-color: #bfb4ff;
+  position: relative;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 50px;
+  border-radius: 70px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border:white solid 5px;
+}
+.about-endo h1{
+  color: #4426f1;
+}
