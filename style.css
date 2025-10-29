@@ -1,0 +1,22 @@
+body{
+    box-sizing: border-box;
+}
+.sections { 
+     display: flex; 
+     flex-direction: row; 
+    column-count: 4; 
+    justify-content: center;
+
+}
+
+.icon, img {
+    width: 30px;
+}
+.head{
+    color: #6a50ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding-left:100px;
+    padding-right: 70px;
+
+}
